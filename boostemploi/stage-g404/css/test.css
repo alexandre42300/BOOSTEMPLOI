@@ -1,0 +1,257 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background: linear-gradient(to right, purple, purple, purple, white, white, white);
+        border: solid 0.20em purple;
+        border-radius: 30px;
+
+        margin: 0;
+        width: 99vw;
+        height: 7vw;
+        
+  }
+
+
+div.present{
+    display: flex;
+    justify-content: center;
+
+    width: 30vw;
+    
+} 
+
+h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5em;
+    font-weight: bolder;
+    color: white;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    width: 18vw;
+    height: 5vw;
+    /* margin-top: 0.5vw; */
+   
+}
+
+h1 em{
+  color: purple;
+  font-size: 1.2em;
+  -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: white;
+}
+
+
+
+div.milieu{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+#Titre1 a{
+    color: rgb(121, 47, 121);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    text-decoration: none;
+}
+
+#Titre2 a{
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+#Titre3{
+    color: rgb(214, 56, 214);
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: black;
+}
+
+button{ 
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 4vmax;
+    justify-content: center;
+    background-color: white;
+    /* border: none; */
+     
+  }
+
+img.burger{
+    width: 4vw;
+  }
+
+
+  
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+
+/* fin navbar */
+
+
+.integral { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw;
+    padding: 5vw 0vw 5vw 0vw;
+    width: 70vw;
+    
+
+    color:#666; 
+    font-family:sans-serif; 
+    font-size:1.6em; 
+    background:#f8f8f8; 
+    border: solid 0.1em purple;
+    border-radius: 100px;
+    
+}
+
+
+div.texteimage{
+    padding: 1vw 12vw 1vw 12vw;
+    margin: 0;
+    
+} 
+
+h3{
+    text-align: center;
+    font-size: 1.4em;
+    color: purple;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: grey;
+}
+
+h3 em{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+ img.texteimage { 
+    width:10vw;
+    animation: spin 6s linear infinite;    
+}
+
+img.texteimage:hover { 
+    width:10vw;
+    animation: spin 1.5s linear infinite;    
+}
+
+figure.texteimage{
+    float: left;
+    margin: 0.2em;
+}
+
+figcaption.texteimage{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.3em;
+}
+
+p.texteimage{
+    text-align: justify;
+    width: 45vw;
+}
+
+p.texteimage em{
+    font-size: 0.9em;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: grey;
+}
+
+p.texteimage span{
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+p.texteimage mark{
+    font-size: 1.8em;
+    color: purple;
+    background-color: transparent;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: grey;
+}
+
+/* debut footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(to right, purple, purple, purple, white, white, white);
+    border: solid 0.18em purple;
+    border-radius: 30px;
+
+    width: 87vw;
+    height: 22vw;
+    padding: 0vw 6vw 0vw 6vw;
+    
+}
+
+img.qrcode{
+    width: 16vw;
+    border: solid 0.3vw white;
+    border-radius: 1vw;
+}
+
+div.garage404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    border-radius: 30px;
+    /* margin: 5vw 0vw 5vw 0vw; */
+    
+}
+
+img.garage404{
+    width: 10vw;
+}
+
+ul.garage404{
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: Georgia, serif;
+    color: purple;
+    color: rgb(214, 56, 214);
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: black;
+
+    width: 20vw;
+}
+
