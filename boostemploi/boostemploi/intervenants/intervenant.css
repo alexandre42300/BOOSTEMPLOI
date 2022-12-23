@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	width:100%;
+	min-height:100%;
+	margin: 10px;;
+	font-family:'Roboto', sans-serif;
+	font-size:15px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+article img{
+    animation-duration: 2s;
+    animation-name:slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 25%;
+      width: 25%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 13%;
+    }
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 25%;
+      width: 525%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 13%;
+    }	
+
+  }
+  button{
+    background-color: red;
+    color: aliceblue;
+  }
+  footer h3{
+    background-color: black;
+    color: aliceblue;
+  }
